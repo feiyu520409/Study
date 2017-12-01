@@ -1,1 +1,1 @@
-include ':app', ':learnsurfaceview01', ':learnsurfaceview02', ':learnsurfaceview03'
+include ':app', ':learnsurfaceview01', ':learnsurfaceview02', ':learnsurfaceview03', ':toast', ':notification'
