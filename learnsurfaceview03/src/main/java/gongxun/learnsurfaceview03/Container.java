@@ -18,14 +18,15 @@ public class Container {
     }
 
     public void draw(Canvas canvas) {
+        canvas.save();
         childrenView(canvas);
         for (Container c : children) {
             c.draw(canvas);
         }
+        canvas.restore();
     }
 
     public void childrenView(Canvas canvas) {
-
     }
 
     public void addChildrenView(Container child) {
